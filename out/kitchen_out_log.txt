@@ -1,0 +1,149 @@
+MASK_PERC = 0.8;
+SAMPLE_SELECT = 0.3;
+PATCH_SIZE = 31;
+TRIM_EDGES = true;
+
+---PANOBUILDER V2---
+This tool builds a panorama starting from a sequence of images taken by rotating a tripod head
+Please provide the name of the image sequence folder
+kitchen
+Please provide the angle of view of the camera (lab-kitchen: 33, bedroom-asiago: 41)
+33
+Do you want to trim the black borders? [y/n] + enter
+y
+Now loading chosen image folder...
+Loading completed - The images have size 640 x 426
+Adding image #1 out of 22
+[ INFO:0] global C:\build\master_winpack-build-win64-vc15\opencv\modules\core\src\ocl.cpp (891) cv::ocl::haveOpenCL Initialize OpenCL runtime...
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 190, delta Y: -1, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 190, avg deltaY: -2
+New width: 830, new Height 429
+------------
+Adding image #2 out of 22
+Matched considered: 27, out of 93 matches found
+CUSTOM RANSAC delta X: 382, delta Y: 1, with maxCount: 26
+CUSTOM RANSAC done, avg deltaX: 380, avg deltaY: 2
+New width: 1020, new Height 431
+------------
+Adding image #3 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 571, delta Y: -1, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 570, avg deltaY: 1
+New width: 1210, new Height 432
+------------
+Adding image #4 out of 22
+Matched considered: 43, out of 146 matches found
+CUSTOM RANSAC delta X: 762, delta Y: -3, with maxCount: 43
+CUSTOM RANSAC done, avg deltaX: 761, avg deltaY: -1
+New width: 1401, new Height 434
+------------
+Adding image #5 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 952, delta Y: -2, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 952, avg deltaY: 0
+New width: 1592, new Height 435
+------------
+Adding image #6 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 1143, delta Y: 1, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 1143, avg deltaY: 0
+New width: 1783, new Height 436
+------------
+Adding image #7 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 1334, delta Y: 1, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 1334, avg deltaY: 0
+New width: 1974, new Height 437
+------------
+Adding image #8 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 1526, delta Y: -2, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 1526, avg deltaY: -2
+New width: 2166, new Height 440
+------------
+Adding image #9 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 1717, delta Y: -2, with maxCount: 38
+CUSTOM RANSAC done, avg deltaX: 1717, avg deltaY: 1
+New width: 2357, new Height 441
+------------
+Adding image #10 out of 22
+Matched considered: 17, out of 57 matches found
+CUSTOM RANSAC delta X: 1909, delta Y: -1, with maxCount: 17
+CUSTOM RANSAC done, avg deltaX: 1909, avg deltaY: 0
+New width: 2549, new Height 442
+------------
+Adding image #11 out of 22
+Matched considered: 30, out of 103 matches found
+CUSTOM RANSAC delta X: 2103, delta Y: 0, with maxCount: 30
+CUSTOM RANSAC done, avg deltaX: 2102, avg deltaY: 0
+New width: 2742, new Height 443
+------------
+Adding image #12 out of 22
+Matched considered: 29, out of 99 matches found
+CUSTOM RANSAC delta X: 2294, delta Y: 1, with maxCount: 27
+CUSTOM RANSAC done, avg deltaX: 2294, avg deltaY: -1
+New width: 2934, new Height 445
+------------
+Adding image #13 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 2481, delta Y: 3, with maxCount: 4
+CUSTOM RANSAC done, avg deltaX: 2481, avg deltaY: 3
+New width: 3121, new Height 448
+------------
+Adding image #14 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 2671, delta Y: 2, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 2671, avg deltaY: 1
+New width: 3311, new Height 449
+------------
+Adding image #15 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 2862, delta Y: -3, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 2862, avg deltaY: -1
+New width: 3502, new Height 451
+------------
+Adding image #16 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 3053, delta Y: 2, with maxCount: 34
+CUSTOM RANSAC done, avg deltaX: 3052, avg deltaY: 2
+New width: 3692, new Height 453
+------------
+Adding image #17 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 3243, delta Y: 0, with maxCount: 42
+CUSTOM RANSAC done, avg deltaX: 3242, avg deltaY: 1
+New width: 3882, new Height 454
+------------
+Adding image #18 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 3431, delta Y: 2, with maxCount: 44
+CUSTOM RANSAC done, avg deltaX: 3433, avg deltaY: -1
+New width: 4073, new Height 456
+------------
+Adding image #19 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 3621, delta Y: 2, with maxCount: 44
+CUSTOM RANSAC done, avg deltaX: 3622, avg deltaY: 0
+New width: 4262, new Height 457
+------------
+Adding image #20 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 3813, delta Y: -1, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 3813, avg deltaY: -1
+New width: 4453, new Height 459
+------------
+Adding image #21 out of 22
+Matched considered: 45, out of 152 matches found
+CUSTOM RANSAC delta X: 3999, delta Y: -2, with maxCount: 45
+CUSTOM RANSAC done, avg deltaX: 3999, avg deltaY: -2
+New width: 4639, new Height 462
+------------
+Adding image #22 out of 22
+Matched considered: 43, out of 145 matches found
+CUSTOM RANSAC delta X: 4189, delta Y: 5, with maxCount: 40
+CUSTOM RANSAC done, avg deltaX: 4189, avg deltaY: 3
+New width: 4829, new Height 465
+------------
+Computation ended - output file now updated
